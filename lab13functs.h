@@ -7,3 +7,7 @@
  *          could be multiple lines
  * =========================================================== */
 
+
+#include <stdio.h>
+int findGCD(int num1, int num2);
+int isArmstrong(int num);

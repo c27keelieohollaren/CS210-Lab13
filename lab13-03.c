@@ -11,7 +11,12 @@
 #include "lab13functs.h"
 
 int main() {
-    
+    int num1;
+    int num2;
+    printf("Enter two values");
+    scanf("%d%d", &num1, &num2);
+    int gcd = findGCD(num1, num2);
+    printf("GCD = %d\n", gcd);
     return 0;
 
 }
